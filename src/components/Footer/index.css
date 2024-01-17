@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.footer-cont {
+  background-color: #cbd5e1;
+  color: #64748b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 30px;
+  font-family: 'roboto';
+  margin-top: 5px;
+  font-size: xx-large;
+  font-weight: bolder;
+}

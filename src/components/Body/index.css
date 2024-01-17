@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.body-cont {
+  width: 70%;
+  min-height: 50vh;
+  display: flex;
+  font-family: 'roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .body-cont {
+    width: 70%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto';
+  }
+}
+
+.left-nav-cont {
+  flex-grow: 1;
+  background-color: #e2e8f0;
+  padding: 20px;
+  margin-right: 2px;
+}
+
+.list-cont {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .left-nav-cont {
+    margin-bottom: 5px;
+  }
+}
+
+.right-nav-cont {
+  flex-grow: 1;
+  background-color: #e2e8f0;
+  padding: 20px;
+  margin-left: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .right-nav-cont {
+    margin-bottom: 5px;
+  }
+}
+
+.content-cont {
+  background-color: #f1f5f9;
+  flex-grow: 1;
+  padding: 20px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .content-cont {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.config-controller {
+  min-height: 20vh;
+  color: #ffffff;
+  background-color: #475569;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'roboto';
+}
+
+.checkbox-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
